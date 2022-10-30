@@ -7,7 +7,6 @@ body {
     background-size: cover;
     transition: 0.3s;
     padding: 10px;
-    font-size: 100px;
     min-height: 100vh;
 }
 
@@ -24,8 +23,9 @@ span {
     width: 150px;
 }
 
-.emojiContainer {
+#emojiContainer {
     margin-top: 20px;
+    font-size: 100px;
 }
 
 input {
@@ -35,6 +35,7 @@ input {
     border-radius: 7px;
     border: none;
     padding: 10px 5px;
+    margin: 10px 0px;
 }
 
 button {
@@ -44,6 +45,16 @@ button {
     border: none;
     color: aliceblue;
     padding: 10px 15px;
+    margin-left: 10px;
+}
+
+#pop-emoji,
+#shift-emoji {
+    background-color: red;
+}
+
+.buttons-wrapper {
+    margin: 10px 0px;
 }
 
 button:active {
