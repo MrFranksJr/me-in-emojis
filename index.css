@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: 'baloo', sans-serif;
+    text-align: center;
+    padding: 30px 0px;
+    background: linear-gradient(#D97706, #FEF3C7);
+    background-size: cover;
+    transition: 0.3s;
+    padding: 10px;
+    font-size: 100px;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #242424;
+    margin: 30px 0px 25px 0px;
+    font-size: 50px;
+    font-weight: 800;
+    transition: 0.2s;
+}
+
+span {
+    display: inline-block;
+    width: 150px;
+}
+
+.emojiContainer {
+    margin-top: 20px;
+}
+
+input {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 24px;
+    border-radius: 7px;
+    border: none;
+    padding: 10px 5px;
+}
+
+button {
+    background-color: #74d273;
+    font-size: 20px;
+    border-radius: 7px;
+    border: none;
+    color: aliceblue;
+    padding: 10px 15px;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+    background-color: #579f55;
+}
